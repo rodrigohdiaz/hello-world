@@ -6,9 +6,9 @@ export default function Home() {
   return (
   <div style={{ color: 'purple' }}>
     <Link to="/contact/">Contact</Link>
-    <h1>Hello world!</h1>
-    <p>How's it going?</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
+    <Header headerText="Rodrigo Diaz" />
+    <p>This is a little blog, so come and hang out for a little while</p>
+    <img src="../../images/toronto5.jpg" alt="toronto" style={{ height: "700px", display: "block", margin: "0 auto" }} />
   </div>
   )
 }
