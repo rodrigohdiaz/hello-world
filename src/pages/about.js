@@ -2,6 +2,7 @@ import React from "react"
 // import { Link } from "gatsby"
 import Header from "../components/header"
 import Layout from "../components/layout"
+import Footer from "../components/footer"
 
 export default function About() {
     return (
@@ -15,6 +16,7 @@ export default function About() {
                     So have a browse and if you have any question or feedback, just shout! (or send me an email)
                 </p>
             </div>
+            <Footer></Footer>
         </Layout>
     )
 }

@@ -2,6 +2,7 @@ import React from "react"
 // import { Link } from "gatsby"
 import Header from "../components/header"
 import Layout from "../components/layout"
+import Footer from "../components/footer"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         websites.
       </p>
     </div>
+    <Footer></Footer>
   </Layout>
   
   )
